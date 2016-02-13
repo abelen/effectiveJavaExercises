@@ -48,31 +48,31 @@ public enum AddressBuilder {
      * @param streetNumber the street number
      * @return a reference to the builder
      */
-    private AddressBuilder withStreetNumber(int streetNumber) {
+    public AddressBuilder withStreetNumber(int streetNumber) {
         this.streetNumber = streetNumber;
 
         return this;
     }
 
-    private AddressBuilder withStreet(String street) {
+    public AddressBuilder withStreet(String street) {
         this.street = street;
 
         return this;
     }
 
-    private AddressBuilder withCity(String city) {
+    public AddressBuilder withCity(String city) {
         this.city = city;
 
         return this;
     }
 
-    private AddressBuilder withState(String state) {
+    public AddressBuilder withState(String state) {
         this.state = state;
 
         return this;
     }
 
-    private AddressBuilder withZipCode(int zipCode) {
+    public AddressBuilder withZipCode(int zipCode) {
         this.zipCode = zipCode;
 
         return this;

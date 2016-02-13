@@ -9,5 +9,7 @@ public class Client {
         Address address = AddressBuilder.INSTANCE.buildAddress();
         System.out.println(address);
 
+        Address address2 = AddressBuilder.INSTANCE.withCity("Odenton").withState("VA").buildAddress();
+        System.out.println(address2);
     }
 }
